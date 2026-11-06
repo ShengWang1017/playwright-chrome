@@ -1,0 +1,26 @@
+{
+  "name": "playwright-chrome",
+  "version": "1.0.0+codex.20260731094154",
+  "description": "Control the user's real Chrome or Edge profile through Playwright MCP, with a simple guided installation and extension-token setup flow.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Playwright Chrome",
+    "shortDescription": "Use or quickly set up Playwright MCP for Chrome.",
+    "longDescription": "Uses Playwright MCP in extension mode to operate the user's real Chrome or Edge profile. The bundled Agent Skill supports both Codex and Claude Code with host-specific installation, invocation, and MCP configuration flows. New users get concise usage examples and guided setup without echoing the extension token.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "\u68c0\u67e5\u6211\u7684 Chrome \u662f\u5426\u5df2\u51c6\u5907\u597d\uff1b\u6ca1\u914d\u7f6e\u65f6\u6309\u6700\u7b80\u6d41\u7a0b\u5e2e\u6211\u5b8c\u6210\u8bbe\u7f6e\u3002",
+      "Open this page in my Chrome and inspect it.",
+      "Use my Chrome session to complete this browser task."
+    ]
+  }
+}

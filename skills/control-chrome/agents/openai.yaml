@@ -1,0 +1,4 @@
+interface:
+  display_name: "Playwright 浏览器控制"
+  short_description: "使用真实 Chrome，并按需引导完成 Playwright 配置"
+  default_prompt: "使用 $control-chrome 检查我的 Chrome 是否已连接；未配置时请按最简流程引导我，已就绪时告诉我可以直接下达哪些浏览器任务。"
